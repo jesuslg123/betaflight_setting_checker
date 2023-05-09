@@ -1,0 +1,22 @@
+[
+  {
+    "name": "crash_recovery",
+    "action": "=",
+    "value": "ON"
+  },
+  {
+    "name": "failsafe_procedure",
+    "action": "=",
+    "values": ["DROP"]
+  },
+  {
+    "name": "osd_flymode_pos",
+    "action": "!=",
+    "value": 234
+  },
+  {
+    "name": "osd_vtx_channel_pos",
+    "action": "!=",
+    "value": 234
+  }
+]
